@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FlickerProject</string>
+    <string name="server_connection_error">Could not reach to server</string>
+</resources>
