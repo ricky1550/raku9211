@@ -1,8 +1,10 @@
 package com.rakesh.flickerproject;
 
+import android.app.Activity;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.view.inputmethod.InputMethodManager;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -17,7 +19,7 @@ import java.util.HashMap;
 public class AppUtils {
 
 
-    public static HashMap<String, String> connectToServer( String path) {
+    public static HashMap<String, String> connectToServer(String path) {
         StringBuilder result = new StringBuilder("");
         HashMap<String, String> resultMap = new HashMap<>();
         int responseCode = 0;
@@ -55,5 +57,12 @@ public class AppUtils {
             return true;
         }
         return false;
+    }
+
+    public static void hideSoftKeyboard(Activity activity) {
+        InputMethodManager inputMethodManager = (InputMethodManager) activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
+        if (activity.getCurrentFocus() != null) {
+            inputMethodManager.hideSoftInputFromWindow(activity.getCurrentFocus().getWindowToken(), 0);
+        }
     }
 }

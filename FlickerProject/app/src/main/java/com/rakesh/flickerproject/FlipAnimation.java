@@ -8,7 +8,7 @@ import android.view.animation.Animation;
 import android.view.animation.Transformation;
 
 /**
- * Created by trisys-himanshu on 28/6/16.
+ * Created by rakesh on 28/6/16.
  */
 public class FlipAnimation extends Animation {
     private Camera camera;

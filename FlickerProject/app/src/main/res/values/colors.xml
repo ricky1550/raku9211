@@ -111,7 +111,7 @@
     <color name="DarkRed">#8B0000</color>
     <color name="BlueViolet">#8A2BE2</color>
     <color name="LightSkyBlue">#87CEFA</color>
-    <color name="SkyBlue">#87CEEB</color>
+    <color name="SkyBlue">#87b9eb</color>
     <color name="Gray">#808080</color>
     <color name="Olive">#808000</color>
     <color name="Purple">#800080</color>
@@ -170,7 +170,7 @@
     <color name="YellowLight">#C8FFFF00</color>
     <color name="black_overlay">#66000000</color>
     <color name="xlsys_yellow">#F6CA19</color>
-    <color name="xlsys_black">#40000000</color>
+    <color name="xlsys_black">#7d000000</color>
     <color name="SearchGrey">#617179</color>
     <color name="SearchWhite">#F2F2F2</color>
     <color name="JobListColor1">#F58A33</color>
